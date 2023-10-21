@@ -9,6 +9,10 @@ public class Producto {
 		return this.precio;
 	}
 
+	public void setPrecio(int precio) {
+		this.precio = precio;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
